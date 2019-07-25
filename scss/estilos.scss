@@ -1,0 +1,40 @@
+$plomoOscuro:rgb(58, 58, 58);
+$blanco: #fff;
+*{
+    margin: 0;
+    pad: 0;
+}
+body{
+    padding-top: 20px;
+    .contenedor{
+        
+        h1{
+            background: $plomoOscuro;
+            color: $blanco;
+            text-align: center;
+            font-size: 35px;
+            padding: 10px 0px;
+            margin: 0 20px;
+        }
+        
+        .web, .publicidades, .dibujos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            img{
+                width: 350px;
+                margin: 25px;
+                box-shadow: 0 7px 10px $plomoOscuro;
+            }
+            .pgDis{
+                width: 350px;
+                height: 350px;
+                align-self: center;
+            }
+            
+        }
+    }
+    
+
+}

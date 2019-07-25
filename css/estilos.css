@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  pad: 0;
+}
+
+body {
+  padding-top: 20px;
+}
+body .contenedor h1 {
+  background: #3a3a3a;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+body .contenedor .web, body .contenedor .publicidades, body .contenedor .dibujos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+body .contenedor .web img, body .contenedor .publicidades img, body .contenedor .dibujos img {
+  width: 350px;
+  margin: 25px;
+  box-shadow: 0 7px 10px #3a3a3a;
+}
+body .contenedor .web .pgDis, body .contenedor .publicidades .pgDis, body .contenedor .dibujos .pgDis {
+  width: 350px;
+  height: 350px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
